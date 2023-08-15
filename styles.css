@@ -1,6 +1,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
+
 }
 
 .container {
@@ -12,24 +13,24 @@ body {
 .column {
     flex: 1;
     padding: 20px;
-    color: white;
 }
 
 .green {
-    background-color: #00ff00;
+    background-color: #185bc0;
 }
 
 .red {
-    background-color: #ff0000;
+    background-color: #3a408d;
 }
 
-.superheroes-list {
+.Marvelsuperheroes-list,
+.DCsuperheroes-list {
     list-style: none;
     padding: 0;
 }
 
 .superhero-item {
-    background-color: #f39c12;
+    background-color: #fffb00;
     padding: 10px;
     margin: 5px 0;
     border-radius: 5px;
